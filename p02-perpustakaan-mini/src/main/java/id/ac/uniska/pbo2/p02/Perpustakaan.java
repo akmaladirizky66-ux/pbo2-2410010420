@@ -56,5 +56,20 @@ return jumlah;
 /** Salinan daftar yang tidak dapat diubah, agar data asli tetap terlindungi. */
 public List<Koleksi> getDaftarKoleksi() {
 return List.copyOf(daftarKoleksi);
+
+}
+
+public List<Koleksi> cariJudul(String kataKunci) {
+    List<Koleksi> hasil = new ArrayList<>();
+
+    String keyword = kataKunci.toLowerCase();
+
+    for (Koleksi k : daftarKoleksi) {
+        if (k.getJudul().toLowerCase().contains(keyword)) {
+            hasil.add(k);
+        }
+    }
+
+    return hasil;
 }
 }
