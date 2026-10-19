@@ -131,22 +131,9 @@
                 <Property name="text" type="java.lang.String" value="Buka"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="simpanButton">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Simpan"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="simpanButtonActionPerformed"/>
-              </Events>
-            </Component>
             <Component class="javax.swing.JButton" name="simpanSebagaiButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Simpan Sebagai"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JButton" name="cetakButton">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Cetak"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="bagikanButton">
@@ -154,10 +141,23 @@
                 <Property name="text" type="java.lang.String" value="Bagikan"/>
               </Properties>
             </Component>
+            <Component class="javax.swing.JButton" name="cetakButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cetak"/>
+              </Properties>
+            </Component>
             <Component class="javax.swing.JButton" name="keluarButton">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Keluar"/>
               </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="simpanButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Simpan"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="simpanButtonActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

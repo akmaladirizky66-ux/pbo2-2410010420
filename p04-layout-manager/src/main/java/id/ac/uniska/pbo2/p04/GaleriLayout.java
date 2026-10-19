@@ -48,11 +48,11 @@ public class GaleriLayout extends javax.swing.JFrame {
         flowPanel = new javax.swing.JPanel();
         baruButton = new javax.swing.JButton();
         bukaButton = new javax.swing.JButton();
-        simpanButton = new javax.swing.JButton();
         simpanSebagaiButton = new javax.swing.JButton();
-        cetakButton = new javax.swing.JButton();
         bagikanButton = new javax.swing.JButton();
+        cetakButton = new javax.swing.JButton();
         keluarButton = new javax.swing.JButton();
+        simpanButton = new javax.swing.JButton();
         gridPanel = new javax.swing.JPanel();
         satuButton = new javax.swing.JButton();
         duaButton = new javax.swing.JButton();
@@ -111,21 +111,21 @@ public class GaleriLayout extends javax.swing.JFrame {
         bukaButton.setText("Buka");
         flowPanel.add(bukaButton);
 
-        simpanButton.setText("Simpan");
-        simpanButton.addActionListener(this::simpanButtonActionPerformed);
-        flowPanel.add(simpanButton);
-
         simpanSebagaiButton.setText("Simpan Sebagai");
         flowPanel.add(simpanSebagaiButton);
-
-        cetakButton.setText("Cetak");
-        flowPanel.add(cetakButton);
 
         bagikanButton.setText("Bagikan");
         flowPanel.add(bagikanButton);
 
+        cetakButton.setText("Cetak");
+        flowPanel.add(cetakButton);
+
         keluarButton.setText("Keluar");
         flowPanel.add(keluarButton);
+
+        simpanButton.setText("Simpan");
+        simpanButton.addActionListener(this::simpanButtonActionPerformed);
+        flowPanel.add(simpanButton);
 
         layoutTab.addTab("FlowLayout", flowPanel);
 
