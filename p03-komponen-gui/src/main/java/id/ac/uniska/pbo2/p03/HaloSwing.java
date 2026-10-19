@@ -6,7 +6,14 @@ package id.ac.uniska.pbo2.p03;
 
 import com.formdev.flatlaf.FlatLightLaf;
 
+<<<<<<< HEAD
 
+=======
+/**
+ *
+ * @author User
+ */
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
 public class HaloSwing extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(HaloSwing.class.getName());
@@ -39,11 +46,25 @@ public class HaloSwing extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addComponent(pesanLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 432, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(pesanLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 341, Short.MAX_VALUE)
+=======
+            .addGroup(layout.createSequentialGroup()
+                .addGap(119, 119, 119)
+                .addComponent(pesanLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)
+                .addGap(128, 128, 128))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(135, 135, 135)
+                .addComponent(pesanLabel)
+                .addContainerGap(157, Short.MAX_VALUE))
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
         );
 
         pack();
@@ -53,6 +74,7 @@ public class HaloSwing extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+<<<<<<< HEAD
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -69,6 +91,8 @@ public class HaloSwing extends javax.swing.JFrame {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+=======
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
         FlatLightLaf.setup();
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> new HaloSwing().setVisible(true));

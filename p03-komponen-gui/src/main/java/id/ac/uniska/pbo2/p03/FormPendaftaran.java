@@ -4,6 +4,7 @@
  */
 package id.ac.uniska.pbo2.p03;
 
+<<<<<<< HEAD
 import com.formdev.flatlaf.FlatDarkLaf;
 import com.formdev.flatlaf.FlatLaf;
 import com.formdev.flatlaf.FlatLightLaf;
@@ -14,11 +15,18 @@ import javax.swing.JCheckBox;
 import javax.swing.JOptionPane;
 
 
+=======
+/**
+ *
+ * @author User
+ */
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
 public class FormPendaftaran extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(FormPendaftaran.class.getName());
 
     /**
+<<<<<<< HEAD
      * Creates new form HaloSwing
      */
     public FormPendaftaran() {
@@ -37,6 +45,12 @@ public class FormPendaftaran extends javax.swing.JFrame {
         getRootPane().setDefaultButton(daftarButton);
 
         setExtendedState(javax.swing.JFrame.MAXIMIZED_BOTH);
+=======
+     * Creates new form FormPendaftaran
+     */
+    public FormPendaftaran() {
+        initComponents();
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
     }
 
     /**
@@ -48,6 +62,7 @@ public class FormPendaftaran extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+<<<<<<< HEAD
         jenisKelaminGroup = new javax.swing.ButtonGroup();
         namaLabel = new javax.swing.JLabel();
         namaField = new javax.swing.JTextField();
@@ -64,10 +79,15 @@ public class FormPendaftaran extends javax.swing.JFrame {
         webCheck = new javax.swing.JCheckBox();
         temaToggle = new javax.swing.JToggleButton();
         daftarButton = new javax.swing.JButton();
+=======
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Form Pendaftaran Workshop");
 
+<<<<<<< HEAD
         namaLabel.setText("Nama ");
 
         npmLabel.setText("NPM");
@@ -104,12 +124,18 @@ public class FormPendaftaran extends javax.swing.JFrame {
 
         daftarButton.setText("Daftar");
         daftarButton.addActionListener(this::daftarButtonActionPerformed);
+=======
+        jLabel1.setText("jLabel1");
+
+        jLabel2.setText("jLabel2");
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -177,11 +203,28 @@ public class FormPendaftaran extends javax.swing.JFrame {
                     .addComponent(temaToggle)
                     .addComponent(daftarButton))
                 .addContainerGap(100, Short.MAX_VALUE))
+=======
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 314, Short.MAX_VALUE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(278, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2))
+                .addContainerGap())
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void prodiComboItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_prodiComboItemStateChanged
         // TODO add your handling code here:
     }//GEN-LAST:event_prodiComboItemStateChanged
@@ -262,6 +305,8 @@ public class FormPendaftaran extends javax.swing.JFrame {
             gelap ? "Mode Terang" : "Mode Gelap"
         );
     }
+=======
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
     /**
      * @param args the command line arguments
      */
@@ -282,16 +327,21 @@ public class FormPendaftaran extends javax.swing.JFrame {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+<<<<<<< HEAD
         FlatLightLaf.setup();
 
         java.awt.EventQueue.invokeLater(
             () -> new FormPendaftaran().setVisible(true)
         );
+=======
+
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> new FormPendaftaran().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JButton daftarButton;
     private javax.swing.JCheckBox javaCheck;
     private javax.swing.ButtonGroup jenisKelaminGroup;
@@ -308,5 +358,9 @@ public class FormPendaftaran extends javax.swing.JFrame {
     private javax.swing.JCheckBox pythonCheck;
     private javax.swing.JToggleButton temaToggle;
     private javax.swing.JCheckBox webCheck;
+=======
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+>>>>>>> 6016fbf (Menambahkan FormPendaftaran)
     // End of variables declaration//GEN-END:variables
 }
