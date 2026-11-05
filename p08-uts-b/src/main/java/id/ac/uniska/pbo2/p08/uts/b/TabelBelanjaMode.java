@@ -6,7 +6,7 @@ package id.ac.uniska.pbo2.p08.uts.b;
 
 /**
  *
- * @author Akmal
+ * @author Akmal Adi Rizky
  */
 // Nama: ISI NAMA ANDA
 // NPM: ISI NPM ANDA
