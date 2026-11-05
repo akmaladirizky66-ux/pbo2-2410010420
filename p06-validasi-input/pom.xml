@@ -8,6 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>25</maven.compiler.release>
+<<<<<<< HEAD
         <exec.mainClass>id.ac.uniska.pbo2.p06.validasi.input.P06ValidasiInput</exec.mainClass>
     </properties>
 <dependencies>
@@ -19,4 +20,15 @@
     </dependency>
 
 </dependencies>
+=======
+        <exec.mainClass>id.ac.uniska.pbo2.p06.P06ValidasiInput</exec.mainClass>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf</artifactId>
+            <version>3.5.4</version>
+        </dependency>
+    </dependencies>
+>>>>>>> bbc7db9783cbbe1374c2a0899913d759b8542f84
 </project>

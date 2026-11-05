@@ -6,7 +6,11 @@ package id.ac.uniska.pbo2.p06;
 
 /**
  *
+<<<<<<< HEAD
  * @author User
+=======
+ * @author Akmal
+>>>>>>> bbc7db9783cbbe1374c2a0899913d759b8542f84
  */
 public class P06ValidasiInput {
 
